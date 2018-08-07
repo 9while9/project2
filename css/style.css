@@ -1,0 +1,122 @@
+a {
+    color: #228b22;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #228b22;
+    text-decoration: none;
+}
+
+body {
+    background-color: #8fbc8f;
+    font-family: rokkitt;
+    font-size: 18px;
+    height: 100vh;
+}
+
+h2 {
+    color: #8fbc8f;
+    font-family: cairo;
+}
+
+h1, h3 {
+    color: #8b0000;
+    font-family: cairo; 
+}
+
+nav {
+    /*background-color: #f0ffff;*/
+    color: #228b22;
+    font-family: cairo;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.navbar-brand a {
+    background-color: #f0ffff;
+    border: 1px solid #228b22;
+    border-radius: 30px;
+    color: #8b0000;
+    font-size: 35px;
+}
+
+.navbar-nav a:hover {
+    background-color: #8fbc8f;
+    color: #228b22;
+}
+
+.navbar-nav li {
+    background-color: #f0ffff;
+}
+
+
+.top {
+    background-color: black;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+/* Index Page */
+
+
+.jumbotron, .jumbotron-fluid {
+    background-image: url(images/pins.jpg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+
+
+.blurb {
+    font-size: 25px;
+    padding: 10px 0px;
+    width: 55%;
+    margin: auto;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.input-group {
+     background-color: #f0ffff;
+     padding: 15px;
+}
+
+/* Pins Page */
+
+
+
+
+.pins {
+    background-color: #f0ffff;
+}
+
+/* Exhibits Page */
+
+
+
+/* Resources Page */
+
+
+.resources {
+    background-color: #f0ffff;
+    border: 2px solid #228b22;
+    border-bottom-right-radius: 130px;
+    border-top-left-radius: 130px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 50px 0px 20px 60px;
+    width: 50%;
+}
+
