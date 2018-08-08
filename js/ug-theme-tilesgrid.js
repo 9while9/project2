@@ -31,7 +31,7 @@ function UGTheme_tilesgrid(){
 	};
 	
 	var g_defaults = {
-			gallery_width: "75%",
+			gallery_width: "50%",
 			
 			tile_width: 180,
 			tile_height: 150,

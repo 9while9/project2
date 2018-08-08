@@ -13,6 +13,8 @@ body {
     font-family: rokkitt;
     font-size: 18px;
     height: 100vh;
+    background-image: linear-gradient(139deg, #7ba682 25%, #97b89f 25%, #97b89f 50%, #7ba682 50%, #7ba682 75%, #97b89f 75%, #97b89f 100%);
+background-size: 60.97px 53.00px;
 }
 
 h2 {
@@ -25,8 +27,21 @@ h1, h3 {
     font-family: cairo; 
 }
 
+h5 {
+    color: #f0ffff;
+    font-family: cairo;
+}
+
+.top {
+    background-color: black;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+/* Navbar */
+
 nav {
-    /*background-color: #f0ffff;*/
     color: #228b22;
     font-family: cairo;
     font-size: 22px;
@@ -42,7 +57,7 @@ nav {
 }
 
 .navbar-nav a:hover {
-    background-color: #8fbc8f;
+    background-color: black;
     color: #228b22;
 }
 
@@ -51,12 +66,7 @@ nav {
 }
 
 
-.top {
-    background-color: black;
-    margin: auto;
-    margin-bottom: 20px;
-    margin-top: 10px;
-}
+
 
 
 
@@ -104,7 +114,10 @@ nav {
 
 /* Exhibits Page */
 
-
+#gallery {
+    margin: auto;
+    margin-top: 60px;
+}
 
 /* Resources Page */
 
