@@ -15,5 +15,7 @@ $(function()
     
     /* Unite Gallery */
     jQuery("#gallery").unitegallery();
+    
+    
 
 })

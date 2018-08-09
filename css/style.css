@@ -4,7 +4,7 @@ a {
 }
 
 a:hover {
-    color: #228b22;
+    color: #8b0000;
     text-decoration: none;
 }
 
@@ -56,10 +56,10 @@ nav {
     font-size: 35px;
 }
 
-.navbar-nav a:hover {
-    background-color: black;
-    color: #228b22;
-}
+/*.navbar-nav a:hover {*/
+/*    background-color: black;*/
+/*    color: #228b22;*/
+/*}*/
 
 .navbar-nav li {
     background-color: #f0ffff;
