@@ -4,7 +4,7 @@ a {
 }
 
 a:hover {
-    color: #8b0000;
+    color: #8fbc8f;
     text-decoration: none;
 }
 
@@ -25,6 +25,7 @@ h2 {
 h1, h3 {
     color: #8b0000;
     font-family: cairo; 
+    margin: 0;
 }
 
 h5 {
@@ -72,45 +73,27 @@ nav {
 
 
 
-
-
 /* Index Page */
 
 
-.jumbotron, .jumbotron-fluid {
-    background-image: url(images/pins.jpg);
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: cover;
-    padding-bottom: 100px;
-}
 
-
-
-.blurb {
-    font-size: 25px;
-    padding: 10px 0px;
-    width: 55%;
-    margin: auto;
-}
-
-.container-fluid {
-    padding: 0;
-}
-
-.input-group {
+footer {
      background-color: #f0ffff;
-     padding: 15px;
+     margin-bottom: 15px;
+     padding: 10px 0px;
 }
 
 /* Pins Page */
 
-
-
-
-.pins {
+.nav-item, .pins {
     background-color: #f0ffff;
 }
+
+#myTab .active {
+    background-color: #8fbc8f;
+    color: #f0ffff;
+}
+
 
 /* Exhibits Page */
 
@@ -130,6 +113,5 @@ nav {
     margin: auto;
     margin-bottom: 30px;
     padding: 50px 0px 20px 60px;
-    width: 50%;
 }
 
