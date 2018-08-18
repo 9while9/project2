@@ -47,10 +47,11 @@
       <div class="row col-sm-12 top"><h2>News</h2></div>
 
 <!-- Container -->
-
-  <div class="container">
-<h3>Site Updates</h3>
-<div class="card-columns">
+ <div class="container">
+      
+      
+     <!-- Site Updates -->
+     <h3>Site Updates</h3>
 <div class="card">
         <div class="card-header">Redesign</div>
             <div class="card-body"><p>The site is currently under maintenance. While it still will be up-and-running during redesign, it may not be full-functioning for a few weeks.</p></div>
@@ -80,39 +81,54 @@
     <div class="footer">August 2017</div>
   </div>
 
-       <div class="card p-0">
-        <div class="card-header">Newest Pins</div>
-            <img class="card-img-top" src="images/mypins/chaney.jpg" alt="Masque of the Red Death Pin">
-            <div class="card-body">
-        </div>
-</div>
 
-    </div> 
-    
+   <!-- Events -->
 <h3>Events</h3>
+
+             <!-- Tablist -->
        <div class="card mb-5">
-        <div class="card-header">Summer 2018 - </div>
+        <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="upcoming-tab" data-toggle="tab" href="#upcoming" role="tab" aria-controls="upcoming" aria-selected="true">Upcoming</a></li>
+              <li class="nav-item">
+                <a class="nav-link" id="recent-tab" data-toggle="tab" href="#recent" role="tab" aria-controls="recent" aria-selected="true">Recent</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="past-tab" data-toggle="tab" href="#past" role="tab" aria-controls="past" aria-selected="true">Past</a>
+              </li>
+            </ul>
+        </div>
             <div class="card-body">
-                 
+            
+            <!-- TabContent -->   
+            <div class="tab-content" id="myTabContent">
+                
+        <!-- Upcoming -->
+            
+            <div class="tab-pane fade show active" id="upcoming" role="tabpanel" aria-labelledby="upcoming-tab">
     <ul>
-        <li>June 16th - <a href="http://www.pinandpatchcon.com/">Pin and Patch Con 2018</a> at San Diego University</li>
-        <li>July 29th - <a href="https://www.instagram.com/p/BljG4ECF8mL/">Pin Pop NYC Show</a> at the Windjammer (Queens)</li>
-        <li>July 29th - <a href="https://www.pinandpatchshow.com/">Pin + Patch Show: Toronto</a></li>
         <li>August 24th-26th - <a href="http://horrorhoundweekend.com/">HorrorHound Weekend</a> at JW Marriott Indianapolis</li>
-        <li>August 11th - <a href="https://www.facebook.com/events/218883978861589/">Trenton Punk Rock Flea Market: Summer Edition</a> at Neshaminy Creek Brewing Company (Croyden, PA)</li>
         <li>October 13th - <a href="https://www.gallerynucleus.com/event/680">Pin-Pal-Palooza</a> at Gallery Nucleus (Los Angeles)</li>
         <li>October 13th - <a href="http://www.theflairfair.com/">Flair Fair</a> at Lyric Hall Theater (New Haven)</li>
     </ul>
+       </div>
        
-    </div> 
-    </div>
-    
-    
-       <div class="card mb-5">
-        <div class="card-header">Summer 2017 - Winter 2018</div>
-            <div class="card-body">
-                
+       <!-- Recent -->
+     
+     <div class="tab-pane fade" id="recent" role="tabpanel" aria-labelledby="recent-tab">  
     <ul>
+      <li>June 16th - <a href="http://www.pinandpatchcon.com/">Pin and Patch Con 2018</a> at San Diego University</li>
+        <li>July 29th - <a href="https://www.instagram.com/p/BljG4ECF8mL/">Pin Pop NYC Show</a> at the Windjammer (Queens)</li>
+        <li>July 29th - <a href="https://www.pinandpatchshow.com/">Pin + Patch Show: Toronto</a></li>
+         <li>August 11th - <a href="https://www.facebook.com/events/218883978861589/">Trenton Punk Rock Flea Market: Summer Edition</a> at Neshaminy Creek Brewing Company (Croyden, PA)</li>
+    </ul>
+       </div>
+       
+       <!-- Past -->
+       
+       <div class="tab-pane fade" id="past" role="tabpanel" aria-labelledby="past-tab">  
+         <ul>
         <li>May 6th - <a href="http://www.gallerynucleus.com/event/608">Pin-Pal-Palooza</a> at Gallery Nucleus (Los Angeles)</li>
         <li>May 23rd-June 10th - <a href="https://www.craftcentral.org.uk/event/brooch-back">The Brooch is Back</a> at Craft Central (London)</li>
         <li>June 16th-July 15th - <a href="https://www.bilk.com.au/brooch-2">Bro.och #2</a> at Bilk Gallery (Canberra)</li>
@@ -122,45 +138,71 @@
         <li>October 28th, 2017-January 21, 2018 - <a href="http://madmuseum.org/exhibition/read-my-pins">Read My Pins: The Madeleine Albright Collection</a> at the <a href="http://www.lbjlibrary.org/">LBJ Presidential Library</a> (Austin)</li>
         <li>November 4th - <a href="http://www.gallerynucleus.com/event/624">Pin-Pal-Palooza</a> at Gallery Nucleus (Los Angeles)</li>
     </ul>
- 
-        </div>
+       </div>
+
+       </div>
     </div> 
+    </div>
     
+    <!-- Sales -->
 <h3>Sales</h3>
+
+        <!-- Tablist -->
        <div class="card mb-5">
-        <div class="card-header">Summer</div>
+                <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="current-tab" data-toggle="tab" href="#current" role="tab" aria-controls="current" aria-selected="true">Current</a></li>
+              <li class="nav-item">
+                <a class="nav-link" id="recent-tab" data-toggle="tab" href="#expired" role="tab" aria-controls="expired" aria-selected="true">Expired</a>
+              </li>
+            </ul>
+        </div>
+        
+        <div class="card-body">
+        <!-- TabContent -->   
+            <div class="tab-content" id="myTabContent">
+                
+                
+                <div class="tab-pane fade show active" id="current" role="tabpanel" aria-labelledby="current-tab"> 
+                
             <ul>
                 <li><a href="https://nerdpins.patternbyetsy.com/">Nerd Pins</a> - Buy 2 Pins, Get a mystery pin free.</li>
                 <li><a href="https://10dac.bigcartel.com/">Tenth Dimension Art Collective</a> - Use HAPPYBIRTHDAYTOME to receive 10% off the entire month of August.</li>
+                
+            </ul>
+                </div>
+        
+
+            
+             <div class="tab-pane fade" id="expired" role="tabpanel" aria-labelledby="expired-tab">  
+            <ul>
                 <li><a href="https://www.etsy.com/shop/misfitmakes">Misfit Makes</a> -  20% off until August 7th.</li>
                 <li><a href="https://captainco.com/">Famous Monsters of Filmland</a> - Use AUGUST20 to receive 20% off until August 2nd.</li>
                 <li><a href="https://www.etsy.com/shop/blackwolfomega">Black Wolf Art</a> - All pins and sets are 50% off beginning July 30th.</li>
                 <li><a href="https://atticflood.bigcartel.com/">Attic Flood</a> - 24 hour sale: All pins, except the Cravens, for $6 each, July 29th-30th 2PM EST.</li>
-                <li><a href="https://london-1888.myshopify.com/">London 1888</a> - July 4th sale from July 1st-5th. </li>
-                <li><a href="https://www.pattilapel.com/">Patti Lapel</a> - Use BUY3GET20 to receive 20% off a purchase of minimum 3 pins. July 4th sale. </li>
-                <li><a href="https://www.pinpal.club/">Pin Pal Club</a> - July 4th sale. Use FOURSCORE at 4PM PST within 44 mins to receive 44% off. </li>
-    
-            </ul>
-</div>
-
-       <div class="card mb-5">
-        <div class="card-header">Winter-Spring</div>
-            <ul>
+                <li><a href="https://london-1888.myshopify.com/">London 1888</a> - July 4th sale from July 1st-5th.</li>
+                <li><a href="https://www.pattilapel.com/">Patti Lapel</a> - Use BUY3GET20 to receive 20% off a purchase of minimum 3 pins. July 4th sale.</li>
+                <li><a href="https://www.pinpal.club/">Pin Pal Club</a> - July 4th sale. Use FOURSCORE at 4PM PST within 44 mins to receive 44% off.</li>
                 <li><a href="https://cavitycolors.com/">Cavity Colors</a> - Memorial Day sale from May 26th-28th.</li>
                 <li><a href="https://ghoulkidssociety.bigcartel.com/">Ghoul Kid Society</a> - Half off select pins starting May 24th.</li>
                 <li><a href="https://www.jimibiscuits.com/">Jimi Biscuits</a> - Use CHEAPSKATE to receive 20% until May 8th.</li>
                 <li><a href="https://www.creepycompany.com/">Creepy Co</a> - Up to 50% off select items through May 6th.</li>
                <li><a href="https://www.etsy.com/shop/dannybrito">Danny Brito</a> - 40% of order of $20 or more. Ends March 10th.</li>
                 <li><a href="https://www.creepycompany.com/">Creepy Co</a> - Valentine's Barf Bag filled with an exclusive pin and a number of mystery items. Limited to 300. on Sale February 6th at 7PM CT.</li>
-                <li><a href="https://mightypins.bigcartel.com/">mightypins</a> - Black Friday sale. Ends November 30th at 12 AM PST.</li>
-                
-    
             </ul>
+                </div>
+            
+            
+            
+            </div>
+            </div>
+</div>
 
-           
-            <div class="card-body">
-        </div>
-    </div> 
+
+
+
+  
    
    
    </div> 

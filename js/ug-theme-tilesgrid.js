@@ -34,7 +34,7 @@ function UGTheme_tilesgrid(){
 			gallery_width: "50%",
 			
 			tile_width: 180,
-			tile_height: 150,
+			tile_height: 180,
 			
 			grid_num_rows: 2,
 			grid_padding: 10,

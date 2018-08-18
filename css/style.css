@@ -17,20 +17,23 @@ body {
 background-size: 60.97px 53.00px;
 }
 
-h2 {
-    color: #8fbc8f;
+h1, h2, h3, h4, h5 {
     font-family: cairo;
+    line-height: 1.6;
+    margin: 0;
 }
 
 h1, h3 {
     color: #8b0000;
-    font-family: cairo; 
-    margin: 0;
 }
+
+h2 {
+    color: #8fbc8f;
+}
+
 
 h5 {
     color: #f0ffff;
-    font-family: cairo;
 }
 
 .top {
@@ -76,10 +79,26 @@ nav {
 /* Index Page */
 
 
+.card-hover .reveal {
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    padding: 0;
+}
+
+.card-hover:hover .reveal {
+    height: auto;
+    visibility: visible;
+    opacity: 100;
+    transition: opacity 1s ease;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+
 
 footer {
      background-color: #f0ffff;
-     margin-bottom: 15px;
+     margin: 15px 0px;
      padding: 10px 0px;
 }
 
