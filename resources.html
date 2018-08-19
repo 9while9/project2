@@ -8,8 +8,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     
-    <! -- Font -->
+    <!-- Font -->
         <link href="https://fonts.googleapis.com/css?family=Rokkitt:500|Cairo" rel="stylesheet">
+   
+    <!-- Font Awesome -->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
    
      <!-- My Stylesheet -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -55,8 +58,10 @@
       <div class="resources">
 
        <div class="row">
-        <h1>Read</h1>
+        <h1>History</h1>
       </div>
+      <!-- Articles -->
+      
       <div class="row list-group col-sm-12">
           <ul>
             <li><a href="http://fashion-history.lovetoknow.com/fashion-accessories/brooches-pins">A Concise History of Pins, Fibulae, and Brooches</a></li>
@@ -68,8 +73,16 @@
           </ul>
       </div>
 
-    
     <div class="row">
+    <h1>Create</h1>
+    </div>
+        <div class="row list-group col-sm-12">
+          <ul>
+            <li><a href="https://www.pinlordshop.com/pages/how-to-make-enamel-pins">How to Make Enamel Pins</a></li>
+            <li><a href="https://www.busybeaver.net/blog/5-ways-to-package-custom-enamel-pins/">5 Ways to Package Custom Enamel Pins</a></li>
+          </ul>
+      </div>
+      <div class="row">
         <h1>Buy</h1>
       </div>
         <div class="row no-gutters pt-2 pb-3 pl-3">
@@ -77,19 +90,76 @@
             <a href="https://www.etsy.com/shop/killeracid" class="col-lg-4 col-md-6 col-sm-12">Killer Acid</a>
             <a href="https://shop.scumbagsandsuperstars.com/collections/enamel-pins" class="col-lg-4 col-md-6 col-sm-12">Scumbags and Superstars</a>
             <a href="https://www.creepycompany.com/" class="col-lg-4 col-md-6 col-sm-12">Creepy Co.</a>
+            <a href="https://mightypins.bigcartel.com/" class="col-lg-4 col-md-6 col-sm-12">Mighty Pins</a>
             <a href="https://pattilapel.myshopify.com/" class="col-lg-4 col-md-6 col-sm-12">Patti Lapel</a>
             <a href="http://tedhake.com/default.aspx" class="col-lg-4 col-md-6 col-sm-12">Ted Hake</a>
+            <a href="https://dissentpins.com/" class="col-lg-4 col-md-6 col-sm-12">Dissent Pins</a>
             <a href="https://www.fright-rags.com/collections/enamel-pins" class="col-lg-4 col-md-6 col-sm-12">Fright Rags</a>
             <a href="https://www.pinmuseum.org/" class="col-lg-4 col-md-6 col-sm-12">Pin Museum</a>
             <a href="https://www.threadless.com/catalog/type,accessories/order,popular/style,pin" class="col-lg-4 col-md-6 col-sm-12">Threadless</a>
         </div>
-
-    <div class="row go">
-    <h1>Go</h1>
-    </div>
   
- </div>
+  
+  
+     </div>
+    
+
 </div>
+
+<!-- Footer -->
+<footer>
+    <div class="row d-md-flex justify-content-around col-sm-12 w-100">
+<h4 class="d-none d-md-block">Find Me. Keep in Touch.</h4>
+<div class="text-center ">
+    <i class="fab fa-instagram fa-2x"></i>
+    <i class="fab fa-pinterest fa-2x"></i>
+    <i class="fab fa-github fa-2x"></i>
+    <i class="fab fa-ebay fa-2x"></i>
+    <a href="#myModal" role="button" data-toggle="modal"><i class="fas fa-at fa-2x fa-spin"></i></a>
+    
+    <!-- Contact Form Modal -->
+    
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content text-left">
+      <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">Leave a Message</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        </div>
+      <div class="modal-body">
+        <form class="form-horizontal col-sm-12">
+          <div class="form-group">
+              <label for="sender-name" class="col-form-label">Name</label>
+              <input type="text" class="form-control required" id="sender-name" placeholder="Your name">
+              </div>
+          <div class="form-group">
+          <label for="message-text" class="col-form-label">Message</label>
+          <textarea class="form-control" id="message-text" placeholder="Your message here.." ></textarea>
+          </div>
+          <div class="form-group"><label>E-Mail</label><input class="form-control email" placeholder="Enter a valid email" type="text">
+          </div>
+          </form>
+          <div class="modal-footer">
+          <button type="submit" class="btn btn-outline-success">Submit</button>
+         <button type="button" class="btn btn-outline-danger" data-dismiss="modal">Close</button>
+          </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+    
+    <!-- Newsletter Subscription Form -->
+    
+        <form class="input-group col-sm-10 col-md-3 justify-content-center mt-3 mt-lg-0">
+            <input type="email" class="form-control" id="email" placeholder="Receive Updates">
+            <div class="input-group-button">
+                <button class="btn btn-outline-dark" type="submit">Submit</button>
+            </div>
+    </form>
+ </div>
+</footer>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

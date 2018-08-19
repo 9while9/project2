@@ -8,8 +8,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     
-    <! -- Font -->
+    <!-- Font -->
         <link href="https://fonts.googleapis.com/css?family=Rokkitt:500|Cairo" rel="stylesheet">
+   
+    <!-- Font Awesome -->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
    
      <!-- My Stylesheet -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -52,34 +55,46 @@
       
      <!-- Site Updates -->
      <h3>Site Updates</h3>
-<div class="card">
-        <div class="card-header">Redesign</div>
-            <div class="card-body"><p>The site is currently under maintenance. While it still will be up-and-running during redesign, it may not be full-functioning for a few weeks.</p></div>
-            <div class="footer">8/01/18</div>
-    </div>
-      <div class="card bg-danger">
-          <div class="card-header">Blahblah Event</div>
-    <div class="card-body">
-      <p class="card-text">Just returned from blah. I will have the pictures and maybe some pin reviews up in the next few weeks.</p>
-    </div>
-    <div class="footer">date</div>
-  </div>
-    
-       <div class="card">
-        <div class="card-header">Interim</div>
-            
-            <div class="card-body"><p>Waiting for the next class, the site is at a short standstill.</p>
+     
+      <!-- Tablist -->
+       <div class="card mb-5">
+        <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="aug2018-tab" data-toggle="tab" href="#aug2018" role="tab" aria-controls="aug2018" aria-selected="true">August 2018</a></li>
+              <li class="nav-item">
+                <a class="nav-link" id="aug2017-tab" data-toggle="tab" href="#aug2017" role="tab" aria-controls="aug2017" aria-selected="true">August 2017</a>
+              </li>
+            </ul>
         </div>
-    <div class="footer"> September 2017</div>
-    </div> 
-    
-  <div class="card bg-success">
-      <div class="header">Welcome to Pinbox!</div>
-    <div class="card-body text-center">
+            <div class="card-body">
+                
+                <!-- TabContent -->   
+            <div class="tab-content" id="myTabContent">
+                
+                <!-- August 2018 -->
+            <div class="tab-pane fade show active" id="aug2018" role="tabpanel" aria-labelledby="aug2018-tab">
+                <h4 class="card-title">Redesign</h4>
+     <p>After nearly a year, the site is finally being redesigned. </p>
+                </div>
+                <!-- August 2017 -->
+            <div class="tab-pane fade" id="aug2017" role="tabpanel" aria-labelledby="aug2017-tab">
+                <h4 class="card-title">Welcome to Pinbox!</h4>
+   
       <p class="card-text">Pinbox is the melding of an HTML/CSS class project and my new-found interest in collecting (mostly) enamel pins. Early in its development, it is a little shorter on content than I would like and way too big on ambition for my skillset.</p>
+                </div>
+                
+                </div>
+     </div>
     </div>
-    <div class="footer">August 2017</div>
-  </div>
+    
+    
+ 
+
+    
+
+      
+ 
 
 
    <!-- Events -->
@@ -108,9 +123,13 @@
             
             <div class="tab-pane fade show active" id="upcoming" role="tabpanel" aria-labelledby="upcoming-tab">
     <ul>
+        <li>August 17th-19th - <a href="http://monstermania.net/">Monster-Mania</a> at Crowne Plaza Hotel (Cherry Hill, NJ)</li>
         <li>August 24th-26th - <a href="http://horrorhoundweekend.com/">HorrorHound Weekend</a> at JW Marriott Indianapolis</li>
+         <li>September 16th - <a href="https://www.instagram.com/p/BmjJBSelJ_J/">Pin Pop NYC Show</a> at the Windjammer (Queens)</li>
+         <li>October 28th-30th - <a href="http://monstermania.net/">Monster-Mania</a> at Delta Hotel Marriott (Hunt Valley, MD)</li>
         <li>October 13th - <a href="https://www.gallerynucleus.com/event/680">Pin-Pal-Palooza</a> at Gallery Nucleus (Los Angeles)</li>
         <li>October 13th - <a href="http://www.theflairfair.com/">Flair Fair</a> at Lyric Hall Theater (New Haven)</li>
+        <li>October 20th-21st - <a href="https://www.facebook.com/events/2153506011345067/">Trenton Punk Rock Flea Market: Halloween Edition</a> at the Historic Roebling Machine Shop building (Trenton)</li>
     </ul>
        </div>
        
@@ -122,6 +141,7 @@
         <li>July 29th - <a href="https://www.instagram.com/p/BljG4ECF8mL/">Pin Pop NYC Show</a> at the Windjammer (Queens)</li>
         <li>July 29th - <a href="https://www.pinandpatchshow.com/">Pin + Patch Show: Toronto</a></li>
          <li>August 11th - <a href="https://www.facebook.com/events/218883978861589/">Trenton Punk Rock Flea Market: Summer Edition</a> at Neshaminy Creek Brewing Company (Croyden, PA)</li>
+         <li>August 12th - <a href="https://www.creaturescon.com/">Creatures Con</a> at San Ramon Marriott</li>
     </ul>
        </div>
        
@@ -169,6 +189,8 @@
             <ul>
                 <li><a href="https://nerdpins.patternbyetsy.com/">Nerd Pins</a> - Buy 2 Pins, Get a mystery pin free.</li>
                 <li><a href="https://10dac.bigcartel.com/">Tenth Dimension Art Collective</a> - Use HAPPYBIRTHDAYTOME to receive 10% off the entire month of August.</li>
+                <li><a href="https://guttershakes.bigcartel.com/">Gutter Shakes</a> - Use WOODSBORO to receive $5 off a set of four Return to Woodsboro pins, starting August 18th.</li>
+                <li><a href="https://www.etsy.com/shop/blackwolfomega">Black Wolf Art</a> - All pins and sets are 50% off beginning July 30th.</li>
                 
             </ul>
                 </div>
@@ -179,7 +201,6 @@
             <ul>
                 <li><a href="https://www.etsy.com/shop/misfitmakes">Misfit Makes</a> -  20% off until August 7th.</li>
                 <li><a href="https://captainco.com/">Famous Monsters of Filmland</a> - Use AUGUST20 to receive 20% off until August 2nd.</li>
-                <li><a href="https://www.etsy.com/shop/blackwolfomega">Black Wolf Art</a> - All pins and sets are 50% off beginning July 30th.</li>
                 <li><a href="https://atticflood.bigcartel.com/">Attic Flood</a> - 24 hour sale: All pins, except the Cravens, for $6 each, July 29th-30th 2PM EST.</li>
                 <li><a href="https://london-1888.myshopify.com/">London 1888</a> - July 4th sale from July 1st-5th.</li>
                 <li><a href="https://www.pattilapel.com/">Patti Lapel</a> - Use BUY3GET20 to receive 20% off a purchase of minimum 3 pins. July 4th sale.</li>
@@ -206,6 +227,66 @@
    
    
    </div> 
+
+
+<!-- Footer -->
+<footer>
+    <div class="row d-md-flex justify-content-around col-sm-12 w-100">
+<h4 class="d-none d-md-block">Find Me. Keep in Touch.</h4>
+<div class="text-center ">
+    <i class="fab fa-instagram fa-2x"></i>
+    <i class="fab fa-pinterest fa-2x"></i>
+    <i class="fab fa-github fa-2x"></i>
+    <i class="fab fa-ebay fa-2x"></i>
+    <a href="#myModal" role="button" data-toggle="modal"><i class="fas fa-at fa-2x fa-spin"></i></a>
+    
+    <!-- Contact Form Modal -->
+    
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content text-left">
+      <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">Leave a Message</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        </div>
+      <div class="modal-body">
+        <form class="form-horizontal col-sm-12">
+          <div class="form-group">
+              <label for="sender-name" class="col-form-label">Name</label>
+              <input type="text" class="form-control required" id="sender-name" placeholder="Your name">
+              </div>
+          <div class="form-group">
+          <label for="message-text" class="col-form-label">Message</label>
+          <textarea class="form-control" id="message-text" placeholder="Your message here.." ></textarea>
+          </div>
+          <div class="form-group"><label>E-Mail</label><input class="form-control email" placeholder="Enter a valid email" type="text">
+          </div>
+          </form>
+          <div class="modal-footer">
+          <button type="submit" class="btn btn-outline-success">Submit</button>
+         <button type="button" class="btn btn-outline-danger" data-dismiss="modal">Close</button>
+          </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+    
+    <!-- Newsletter Subscription Form -->
+    
+        <form class="input-group col-sm-10 col-md-3 justify-content-center mt-3 mt-lg-0">
+            <input type="email" class="form-control" id="email" placeholder="Receive Updates">
+            <div class="input-group-button">
+                <button class="btn btn-outline-dark" type="submit">Submit</button>
+            </div>
+    </form>
+ </div>
+</footer>
+
+
+
+
+
 
 
 

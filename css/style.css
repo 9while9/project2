@@ -36,6 +36,8 @@ h5 {
     color: #f0ffff;
 }
 
+/* Header */
+
 .top {
     background-color: black;
     margin: auto;
@@ -43,9 +45,27 @@ h5 {
     margin-top: 10px;
 }
 
+
+/* Contact Form Modal */
+
+.modal-content {
+    background-color: #c7dbcc;
+}
+
+
 /* Navbar */
 
-nav {
+
+.dropdown-menu {
+    background-color: rgba(240, 255, 255, 0.5);
+}
+
+.dropdown-item:hover {
+    background-color: transparent;
+    color: #8fbc8f;
+}
+
+nav, .dropdown-item {
     color: #228b22;
     font-family: cairo;
     font-size: 22px;
@@ -60,12 +80,7 @@ nav {
     font-size: 35px;
 }
 
-/*.navbar-nav a:hover {*/
-/*    background-color: black;*/
-/*    color: #228b22;*/
-/*}*/
-
-.navbar-nav li {
+.navbar-nav ul {
     background-color: #f0ffff;
 }
 
@@ -91,18 +106,19 @@ nav {
     visibility: visible;
     opacity: 100;
     transition: opacity 1s ease;
-    background: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 
 
 footer {
-     background-color: #f0ffff;
-     margin: 15px 0px;
-     padding: 10px 0px;
+     background-color: #8fbc8f;
+     margin: 90px 0px 15px 0px;
+     padding: 15px 0px;
 }
 
 /* Pins Page */
+
 
 .nav-item, .pins {
     background-color: #f0ffff;
