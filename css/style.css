@@ -100,7 +100,7 @@ nav, .dropdown-item {
 /* Index Page */
 
 .card-deck {
-    background-color: #fdfde7;
+    background-color: rgba(143, 188, 143, 0.5);
     padding: 20px 0px;
 }
 
