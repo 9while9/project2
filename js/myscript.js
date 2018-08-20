@@ -11,7 +11,9 @@ $(function()
     {
         $('#vpimg').attr('src', 'images/mypins/vp1.jpg');
     });
-    /* End of Hover */
+    
+    /* End of Vincent Price Hover */
+    
     
     /* Unite Gallery */
     jQuery("#gallery").unitegallery();
@@ -19,3 +21,4 @@ $(function()
     
 
 })
+

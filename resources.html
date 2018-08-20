@@ -20,34 +20,39 @@
     <title>Resources</title>
 </head>
 
-<!-- This navigation bar is the only one that should differ in margin on the linked pages -->
-
 <body>
+
 <!-- Navbar -->
  <nav class="navbar navbar-expand-md">
      <div class="navbar-brand"><a class="nav-link" href="index.html">Pinbox</a></div>
-     <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+     <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
      </button>
-     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+     <div class="collapse navbar-collapse" id="navbarNavDropdown">
          <ul class="navbar-nav nav-fill w-100">
+             
+             <!-- Dropdown -->
+             <li class="nav-item active dropdown">
+                 <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pins</a>
+                 <div class="dropdown-menu text-center w-100" aria-labelledby="navbarDropdownMenuLink">
+                     <a class="dropdown-item" href="pins.html">Reviews</a>
+                     <a class="dropdown-item" href="exhibits.html">Gallery</a>
+                 </div>
+             </li>
+             
+             <!-- End of Dropdown -->
+             
              <li class="nav-item active">
-                 <a class="nav-link" href="pins.html">Pins</a>
+                 <a class="nav-link" data-toggle="tooltip" data-placement="bottom" title="Site & Pin Info" href="news.html">News</a>
              </li>
              <li class="nav-item active">
-                 <a class="nav-link" href="exhibits.html">Exhibits</a>
+                 <a class="nav-link" data-toggle="tooltip" data-placement="bottom" title="Other than me" href="resources.html">Resources</a>
              </li>
-             <li class="nav-item active">
-                 <a class="nav-link" href="news.html">News</a>
-             </li>
-             <li class="nav-item active">
-                 <a class="nav-link" href="resources.html">Resources</a>
-             </li>
-         </ul>
+          </ul>
      </div>    
  </nav>
  
- 
+   <!-- Header -->
  <div class="row col-sm-12 top"><h2>Resources</h2></div>
  
 
@@ -71,7 +76,7 @@
             <li>(Political) <a href="http://quod.lib.umich.edu/l/lbc1ic?page=index">Pinback Buttons, Labadie Collection, University of Michigan</a></li>
             <li>Let's not forget the <a href="http://museumofeverydaylife.org/exhibitions-collections/current-exhibitions/a-visual-history-of-the-safety-pin">Safety Pin</a>!</li>
           </ul>
-      </div>
+      </div>  <!-- End of History Div -->
 
     <div class="row">
     <h1>Create</h1>
@@ -81,9 +86,11 @@
             <li><a href="https://www.pinlordshop.com/pages/how-to-make-enamel-pins">How to Make Enamel Pins</a></li>
             <li><a href="https://www.busybeaver.net/blog/5-ways-to-package-custom-enamel-pins/">5 Ways to Package Custom Enamel Pins</a></li>
           </ul>
-      </div>
+      </div>  <!-- End of Create Div -->
+      
+      
       <div class="row">
-        <h1>Buy</h1>
+        <h1>Collect</h1>
       </div>
         <div class="row no-gutters pt-2 pb-3 pl-3">
             <a href="https://cavitycolors.com/collections/enamel-pins" class="col-lg-4 col-md-6 col-sm-12">Cavity Colors</a>
@@ -97,67 +104,66 @@
             <a href="https://www.fright-rags.com/collections/enamel-pins" class="col-lg-4 col-md-6 col-sm-12">Fright Rags</a>
             <a href="https://www.pinmuseum.org/" class="col-lg-4 col-md-6 col-sm-12">Pin Museum</a>
             <a href="https://www.threadless.com/catalog/type,accessories/order,popular/style,pin" class="col-lg-4 col-md-6 col-sm-12">Threadless</a>
-        </div>
-  
-  
-  
-     </div>
-    
+        </div>  <!-- End of Collect Div -->
 
-</div>
+  
+   </div>  <!-- End of Resources Class -->
+</div>  <!-- End of Container -->
 
 <!-- Footer -->
 <footer>
     <div class="row d-md-flex justify-content-around col-sm-12 w-100">
-<h4 class="d-none d-md-block">Find Me. Keep in Touch.</h4>
-<div class="text-center ">
-    <i class="fab fa-instagram fa-2x"></i>
-    <i class="fab fa-pinterest fa-2x"></i>
-    <i class="fab fa-github fa-2x"></i>
-    <i class="fab fa-ebay fa-2x"></i>
-    <a href="#myModal" role="button" data-toggle="modal"><i class="fas fa-at fa-2x fa-spin"></i></a>
+    <h4 class="d-none d-md-block">Find Me. Keep in Touch.</h4>
+    <!-- Font Awesome -->
+    <div class="text-center">
+        <i class="fab fa-instagram fa-2x"></i>
+        <i class="fab fa-pinterest fa-2x"></i>
+        <i class="fab fa-github fa-2x"></i>
+        <i class="fab fa-ebay fa-2x"></i>
+        <!-- Modal Link -->
+        <a href="#myModal" role="button" data-toggle="modal"><i class="fas fa-at fa-2x fa-spin"></i></a>
     
     <!-- Contact Form Modal -->
     
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content text-left">
-      <div class="modal-header">
-          <h4 class="modal-title" id="myModalLabel">Leave a Message</h4>
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-        </div>
-      <div class="modal-body">
-        <form class="form-horizontal col-sm-12">
-          <div class="form-group">
-              <label for="sender-name" class="col-form-label">Name</label>
-              <input type="text" class="form-control required" id="sender-name" placeholder="Your name">
-              </div>
-          <div class="form-group">
-          <label for="message-text" class="col-form-label">Message</label>
-          <textarea class="form-control" id="message-text" placeholder="Your message here.." ></textarea>
-          </div>
-          <div class="form-group"><label>E-Mail</label><input class="form-control email" placeholder="Enter a valid email" type="text">
-          </div>
-          </form>
-          <div class="modal-footer">
-          <button type="submit" class="btn btn-outline-success">Submit</button>
-         <button type="button" class="btn btn-outline-danger" data-dismiss="modal">Close</button>
-          </div>
+     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content text-left">
+          <div class="modal-header">
+              <h4 class="modal-title" id="myModalLabel">Leave a Message</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
             </div>
-          </div>
-        </div>
-    </div>
-</div>
+          <div class="modal-body">
+            <form class="form-horizontal col-sm-12">
+              <div class="form-group">
+                  <label for="sender-name" class="col-form-label">Name</label>
+                  <input type="text" class="form-control required" id="sender-name" placeholder="Your name">
+                  </div>
+              <div class="form-group">
+              <label for="message-text" class="col-form-label">Message</label>
+              <textarea class="form-control" id="message-text" placeholder="Your message here.." ></textarea>
+              </div>
+              <div class="form-group"><label>E-Mail</label><input class="form-control email" placeholder="Enter a valid email" type="text">
+              </div>
+              </form>
+              <div class="modal-footer">
+              <button type="submit" class="btn btn-outline-success">Submit</button>
+             <button type="button" class="btn btn-outline-danger" data-dismiss="modal">Close</button>
+              </div>
+                </div> <!-- End of Modal Body -->
+              </div> <!-- End of Modal Content -->
+            </div> <!-- End of Modal Dialog -->
+        </div> <!-- End of Modal Fade -->
+    </div> <!-- End of Font Awesome Div -->
     
     <!-- Newsletter Subscription Form -->
     
-        <form class="input-group col-sm-10 col-md-3 justify-content-center mt-3 mt-lg-0">
-            <input type="email" class="form-control" id="email" placeholder="Receive Updates">
-            <div class="input-group-button">
-                <button class="btn btn-outline-dark" type="submit">Submit</button>
-            </div>
-    </form>
- </div>
+       <form class="input-group col-sm-10 col-md-3 justify-content-center mt-3 mt-lg-0">
+          <input type="email" class="form-control" id="email" placeholder="Receive Updates">
+           <div class="input-group-button">
+            <button class="btn btn-outline-dark" type="submit">Submit</button>
+           </div>
+       </form>
+ </div> <!-- End of Footer Row -->
 </footer>
 
     <!-- Optional JavaScript -->
