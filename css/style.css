@@ -67,6 +67,10 @@ footer {
      padding: 15px 0px;
 }
 
+#findex {
+    margin-top: 200px;
+}
+
 /* Navbar */
 
 .dropdown-menu {
@@ -105,18 +109,18 @@ nav, .dropdown-item {
 }
 
 .card-hover .reveal {
-    visibility: hidden;
-    opacity: 0;
     height: 0;
+    opacity: 0;
     padding: 0;
+    visibility: hidden;
 }
 
 .card-hover:hover .reveal {
+    background-color: rgba(0, 0, 0, 0.5);
     height: auto;
-    visibility: visible;
     opacity: 100;
     transition: opacity 1s ease;
-    background-color: rgba(0, 0, 0, 0.5);
+    visibility: visible;
 }
 
 
@@ -152,7 +156,7 @@ nav, .dropdown-item {
 }
 
 #ads {
-    background-color: #fdfde7;
+    background-color: #ff69b4;
     border: 5px solid #8fbc8f;
 }
 
